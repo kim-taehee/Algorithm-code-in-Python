@@ -1,7 +1,8 @@
 # ML codes
 머신러닝 코드
 
+### [kakao1(여러가지분류기예제)](https://github.com/kim-taehee/Algorithm-code-in-Python/blob/master/machineLearning/kakao1.ipynb)
+카뱅시험시만든 여러 
 
-
-## [앙상블예제(emsemble)](https://github.com/kim-taehee/Advanced--code-in-Python/blob/master/machineLearning/ensemble.ipynb)
+### [앙상블예제(emsemble)](https://github.com/kim-taehee/Advanced--code-in-Python/blob/master/machineLearning/ensemble.ipynb)
 primd의 최단거리 
