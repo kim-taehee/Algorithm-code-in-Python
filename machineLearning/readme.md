@@ -4,5 +4,5 @@
 ### [kakao1(여러가지분류기예제)](https://github.com/kim-taehee/Algorithm-code-in-Python/blob/master/machineLearning/kakao1.ipynb)
 카뱅시험시만든 여러 코드  
 
-### [앙상블예제(emsemble)](https://github.com/kim-taehee/Advanced--code-in-Python/blob/master/machineLearning/ensemble.ipynb)
-primd의 최단거리 
+### [앙상블예제(emsemble)](https://github.com/kim-taehee/Advanced--code-in-Python/blob/master/machineLearning/ensemble.ipynb)  
+3가지 앙상블 에 대한 예제
