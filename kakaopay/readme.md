@@ -65,7 +65,7 @@ Output : 'MEDV'
         GradientBoosting pred-score: 1.9887824523369608 
         
         Deep learning score: 1.9012332918434056
-         runntime
+         runntime: 0:00:39.512332
         Deep learning pred-score: 1.7739693303918833
 <div>
 <img src='https://user-images.githubusercontent.com/19430286/54505987-a5a05a80-497d-11e9-8578-962c97d9bbe2.png'>
