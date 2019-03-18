@@ -25,6 +25,8 @@ Output : 'MEDV'
 ### 1-3. 학습데이터셋과 검증데이터셋으로 분할
 
 
+
+
 ## 2.데이터 모델링
 
 ### 2-1. 머신러닝 모델
@@ -65,8 +67,10 @@ Output : 'MEDV'
         Deep learning score: 1.9012332918434056
          runntime
         Deep learning pred-score: 1.7739693303918833
-        ![DL_rate](https://user-images.githubusercontent.com/19430286/54505987-a5a05a80-497d-11e9-8578-962c97d9bbe2.png)
-
+<div>
+<img src='https://user-images.githubusercontent.com/19430286/54505987-a5a05a80-497d-11e9-8578-962c97d9bbe2.png'>
+</div> 
+      
       
 ## 결론
     - runtime 1초 이내에서는 ElasticNet이     최소 MAE=3.620  
