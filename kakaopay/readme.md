@@ -1,6 +1,6 @@
 
 # Regression-test code
-[Test code of Boston Housing in Python](https://github.com/kim-taehee/Algorithm-code-in-Python/kakaopay/paytest2.ipynb)
+[Test code of Boston Housing in Python](https://github.com/kim-taehee/Algorithm-code-in-Python/blob/master/kakaopay/paytest2.ipynb)
 
 ## 1.데이터 전처리 및 속성별 확인 과정
 Input : 'CRIM','ZN','INDUS','CHAS','NOX','RM','AGE','DIS','RAD','TAX','PTRATIO','B','LSTAT'  
