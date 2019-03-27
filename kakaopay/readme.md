@@ -15,7 +15,7 @@ Output : 'MEDV'
 
 ### 1-2. Corr,HeatMap으로 변수별 상관계수 확인
     - abs(0.7)이상의 상관계수를 보이는 col끼리 묶으면,    
-      1st= RM,LSTAT,MEDV   2nd= INDUS,NOX,DIS,AGE,logZN   3nd= RAD,TAX,logCRIM 가 된다.    
+      1st= RM,LSTAT,MEDV   2nd= INDUS,NOX,DIS,AGE,logZN   3rd= RAD,TAX,logCRIM 가 된다.    
     - 상관계수가 적은 'CRIM','ZN','CHAS','PTRATIO','B','logB' 는 삭제  
     
 <div>
