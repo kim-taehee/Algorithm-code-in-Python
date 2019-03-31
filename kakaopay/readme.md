@@ -40,7 +40,7 @@ Output : 'MEDV'
 
 ## 3.모델 평가
     - cv_mae 함수를 실행하여, 모델별 MAE,Runtime 계산 
-        ernel Ridge score: mean:3.8039 (std:0.7116)
+        Kernel Ridge score: mean:3.8039 (std:0.7116)
          runntime: 0:00:02.674846
         Kernel Ridge pred-score: 3.6728388835300754 
 
