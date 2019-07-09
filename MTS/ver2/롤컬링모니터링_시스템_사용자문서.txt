@@ -1,0 +1,21 @@
+
+
+1. 아래의 것들은 차종별,라인별로 MTS BASE를 리셋하는 명령어 입니다.
+   필요하다고 생각될 때에, 가끔씩 직접실행시키세요
+   renewal_MTS_SAA8_1    :  CAR_TYPE=10,12
+   renewal_MTS_SAA8_2    :  CAR_TYPE=기타
+   renewal_MTS_SAM2_1    :  CAR_TYPE=140,141,142
+   renewal_MTS_SAM2_2    :  CAR_TYPE=기타
+
+
+   - 위의 파일들로 계산된 MTS BASE 결과값이 다음의 폴더에 저장됩니다.
+   cal_data_SAA8_1
+   cal_data_SAA8_2
+   cal_data_SAM2_1
+   cal_data_SAM2_2
+
+
+
+2. realtime_MTS는 자동으로 계속 실행되면서, MTS 계산 및 판정을 합니다.
+
+   - MTS batch가  realtime_MTS를 반복 실행

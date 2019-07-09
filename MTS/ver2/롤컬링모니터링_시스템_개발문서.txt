@@ -1,0 +1,57 @@
+2019.07.08
+
+
+기존 이레테크 MTS 시스템 -> 파이썬 프로그램으로 교체시작
+
+
+1.현재 시스템 파악
+
+ 문제1. MTS 계산 프로그램이 시스템데몬으로 동작, 현재 데몬파일 위치 추적불가
+ solution: 이미 이레테크의 MTS 데몬이 미작동 상태
+ (문제없음, 단 MTS Analysis가 실행되지 않는다고 오류뜸)
+ 
+ 문제2.DB 서버가 monitoring system과 중복되어,재부팅시 중간에 데이터의 손실이 많음
+ soulution: 현재 해결불가
+
+
+
+
+2. 파이썬 MTS 프로그램 설치 시작
+
+ - 파이썬3.6.(Windows x86-64 executable installer)설치: window7, 64bit환경에서 동작.
+
+ - MTS분석_python 폴더 생성
+
+ - renewal_MTS.py 코드 설치 밎 cmd에서 pip로 라이브러리 설치
+
+ - renewal_MTS.py ok
+
+ - 차종별로 renewal_MTS.py 생성 
+
+ # 현재문제, 단차를 사용하면 MD값이 크게 나와서 모두 NG가 됨 
+
+
+
+
+2019.07.09
+
+
+3.실시간 MD값 계산하는 realtime_MTS.py 코드 작성
+
+ - fun2(기능2)를 함수화해서 차종별,라인별로 다르게 MD계산
+
+ - MD를 계산해서 where date&time으로 update
+
+ - MD로 판별하여 NG판별
+
+ # MD값이 계산이 되고 있어서, 멈추기 위해 확인 필요(데몬을 찾아야 함)
+
+  - svchost에서 dll로 호출중
+  - C:\Windows\System32 에서 찾아서 삭제
+  - C:\MTSAnalysis에 있는 MTSAnalysis.exe와 MTSmonitoring2.exe를 삭제함
+
+ - realtim_MTS 실행 자동화 해야함
+   C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startupd  에서 batch를 자동실행
+   
+
+ - 추가로 realtim_MTS는 모듈화 필요(refactoring)
