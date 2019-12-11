@@ -144,5 +144,5 @@ api.add_resource(Calseq, '/CETA31/<string:OP_NO>/<string:CYCLE_SEQ>/')
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
 
