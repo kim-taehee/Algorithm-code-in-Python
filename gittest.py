@@ -1,1 +1,1 @@
-print('ab')
+print('a')
